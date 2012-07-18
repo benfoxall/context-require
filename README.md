@@ -7,7 +7,7 @@ Usage
 -----
 
 ```html
-<div class="cr" data-cr="fancy-script">
+<div class="cr" data-cr="fancy">
 	<p>This part is made all fancy</p>
 </div>
 …
@@ -16,7 +16,7 @@ Usage
 ```
 
 ```js
-//fancyscript.js
+//fancy.js
 define(['jquery'], function($){
 
 	$.fn.make_fancy = function(){
