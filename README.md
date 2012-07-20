@@ -12,11 +12,12 @@ Usage
 </div>
 …
 …
-<script data-main="js/cr" src="/js/require.js"></script>
+<script data-main="js/main" src="/js/require.js"></script>
 ```
 
 ```js
-//fancy.js
+//--fancyscript.js
+
 define(['jquery'], function($){
 
 	$.fn.make_fancy = function(){
@@ -28,4 +29,11 @@ define(['jquery'], function($){
 	}
 
 });
+
+//--main.js
+
+// your require.js config
+
+require(['cr']);
+
 ```
