@@ -16,7 +16,7 @@ Usage
 ```
 
 ```js
-//--fancyscript.js
+//--fancy.js
 
 define(['jquery'], function($){
 
@@ -31,8 +31,6 @@ define(['jquery'], function($){
 });
 
 //--main.js
-
-// your require.js config
 
 require(['cr']);
 
