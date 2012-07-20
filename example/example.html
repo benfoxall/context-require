@@ -19,6 +19,12 @@
     <p>Hello red (again)</p>
   </div>
 
+
+  <div class="cr" data-cr="ko.user">
+    <h1 data-bind="text: username"></h1>
+    <input type="text" data-bind="value: username, valueUpdate: 'afterkeydown'" />
+  </div>
+
   <script data-main="js/main" src="js/require.js"></script>
 </body>
 </html>
