@@ -1,4 +1,4 @@
-cr.js
+Context Require
 =====
 
 This is a tiny script that allows you to load (require) js files based on the content of a page.  It is **not** a script loader.
@@ -35,3 +35,5 @@ define(['jquery'], function($){
 require(['cr']);
 
 ```
+
+see [example.html](https://github.com/benfoxall/context-require/blob/master/example/example.html)
