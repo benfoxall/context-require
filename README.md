@@ -1,7 +1,7 @@
 Context Require
 =====
 
-This is a tiny script that allows you to load (require) js files based on the content of a page.  It is **not** a script loader.
+This is a tiny script that allows you to load (require) js files based on the content of a page.
 
 Usage
 -----
